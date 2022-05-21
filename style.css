@@ -122,6 +122,14 @@ hr {
 
 /** sections **/
 
+.ui-left-green{
+  border-left-style: solid;
+  border-left-color: green;
+}
+
+.ui-project{
+  border-bottom-style: solid;
+}
 .section {
   padding: 2rem;
 }
@@ -137,13 +145,19 @@ hr {
 /** footers **/
 
 .footer {
- 
   background-color: var(--primary-color);
   padding: 2rem 1rem;
   text-align: center;
   color: white;
   border-top-right-radius: 1rem;
   border-top-left-radius: 1rem;
+}
+
+i{
+  padding: 10px;
+  border: 1px solid rgb(153, 153, 153);
+  border-radius: 50px;
+  cursor: pointer;
 }
 
 .footer .link {
