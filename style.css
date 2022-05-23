@@ -178,6 +178,11 @@ i{
   padding: 2rem;
 }
 
+/* host projects */
+.host{
+  display: flex;
+}
+
 /** blogs **/
 .showcase-blog {
   padding-bottom: 6rem;
